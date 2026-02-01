@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Will You Be My Valentine?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <div class="sprinkles" aria-hidden="true"></div>
+      <section class="card" id="card">
+        <h1 class="title">Will you be my Valentine, Pakhale?</h1>
+        <div class="button-row" id="buttonRow">
+          <button class="btn yes" id="yesButton">Yes</button>
+          <button class="btn no" id="noButton" aria-label="No">
+            No
+          </button>
+        </div>
+      </section>
+      <section class="celebration hidden" id="celebration">
+        <img
+          src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjY3bTZzZTg5YTU4M2hnM3h5ZzhiZHhnNDh3a2FqdTBoc3hobTBucSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7abldj0b3rxrZUxW/giphy.gif"
+          alt="Cute celebration"
+          class="gif"
+        />
+        <canvas id="confettiCanvas" aria-hidden="true"></canvas>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
